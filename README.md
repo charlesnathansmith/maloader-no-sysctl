@@ -1,7 +1,16 @@
-# Maloader [![Build Status](https://travis-ci.org/shinh/maloader.svg)](https://travis-ci.org/shinh/maloader)
-This is a userland Mach-O loader for linux.
+# Maloader-no-sysctl
+
+Maloader is a userland Mach-O loader for linux.  
+This is an updated fork with the unused deprecated sysctl references removed.
 
 ## Installation
+
+Uuid-dev is required if not already installed
+
+```bash
+$ sudo apt install uuid uuid-dev
+```
+Build with
 
 ```bash
 $ make release
